@@ -72,7 +72,7 @@ export default function Home() {
               excerpt="Equipe brasileira garante classificação após campanha impressionante nas qualificatórias."
               date="12 de Abril, 2024"
               category="CS2"
-              image="/images/news-1.jpg"
+              image="https://animenew.com.br/wp-content/uploads/2024/10/IEM-RIO-2024-FURIA-vence-NAVI-e-avanca-para-a-semifinal-jpg.webp"
               href="/noticias/furia-conquista-vaga-major"
             />
             <NewsCard
@@ -80,7 +80,7 @@ export default function Home() {
               excerpt="O capitão da FURIA fala sobre os desafios de liderar uma equipe de elite no cenário competitivo."
               date="8 de Abril, 2024"
               category="Entrevista"
-              image="/images/news-2.jpg"
+              image="https://medias.itatiaia.com.br/dims4/default/74cf974/2147483647/strip/true/crop/1080x608+0+373/resize/1000x563!/quality/90/?url=https%3A%2F%2Fk2-prod-radio-itatiaia.s3.us-east-1.amazonaws.com%2Fbrightspot%2F1e%2Faa%2Ff4f0665646bb90f61cdc89787ca4%2Fsnapinsta-app-462252415-1210242480272154-1472049927716586349-n-1080.jpg"
               href="/noticias/entrevista-art-lideranca"
             />
             <NewsCard
@@ -88,7 +88,7 @@ export default function Home() {
               excerpt="Organização lança coleção especial de roupas e acessórios para os fãs."
               date="5 de Abril, 2024"
               category="Produtos"
-              image="/images/news-3.jpg"
+              image="https://gumlet.assettype.com/themove/2024-11-12/wfkni3bx/1-copia.png?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true"
               href="/noticias/nova-linha-produtos"
             />
           </div>
@@ -110,7 +110,7 @@ export default function Home() {
               name="arT"
               fullName="Andrei Piovezan"
               role="Capitão / Entry Fragger"
-              image="/images/player-art.jpg"
+              image="https://static.draft5.gg/news/2023/10/30090756/FURIA-arT-IEM-Cologne-2023.jpg"
               socialLinks={{
                 twitter: "https://twitter.com/arTcsgo",
                 instagram: "https://instagram.com/artcsgo",
@@ -121,7 +121,7 @@ export default function Home() {
               name="KSCERATO"
               fullName="Kaike Cerato"
               role="Rifler"
-              image="/images/player-kscerato.jpg"
+              image="https://s2-ge.glbimg.com/7J6ZkhIB4Yn-R3uR8KsbSIIXAuA=/0x0:5637x3760/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2023/h/s/MrRqfXSiWs598AxV000A/csgo-furia-iem-katowice-kscerato.jpg"
               socialLinks={{
                 twitter: "https://twitter.com/kscerato",
                 instagram: "https://instagram.com/kscerato",
@@ -132,7 +132,7 @@ export default function Home() {
               name="yuurih"
               fullName="Yuri Santos"
               role="Rifler"
-              image="/images/player-yuurih.jpg"
+              image="https://noticias.maisesports.com.br/wp-content/uploads/2023/03/yuurih-1.jpg"
               socialLinks={{
                 twitter: "https://twitter.com/yuurihcs",
                 instagram: "https://instagram.com/yuurihcs",
@@ -143,7 +143,7 @@ export default function Home() {
               name="chelo"
               fullName="Marcelo Cespedes"
               role="Rifler"
-              image="/images/player-chelo.jpg"
+              image="https://static.draft5.gg/news/2023/03/27112557/Imperial-chelo-ESL-Pro-League-S17.jpg"
               socialLinks={{
                 twitter: "https://twitter.com/chelocsgo",
                 instagram: "https://instagram.com/chelocsgo",
@@ -154,7 +154,7 @@ export default function Home() {
               name="saffee"
               fullName="Rafael Costa"
               role="AWPer"
-              image="/images/player-saffee.jpg"
+              image="https://s2-ge.glbimg.com/xARmM9MNHaDYPyRbXjq4No5VvIk=/0x0:772x503/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/B/a/2e3rJJT96Ohpmh8HGEmw/iem-major-rio-2022-furia-saffee.png"
               socialLinks={{
                 twitter: "https://twitter.com/saffeeCS",
                 instagram: "https://instagram.com/saffeeCS",
@@ -190,8 +190,8 @@ export default function Home() {
               duration="12:45"
               views="45K"
               date="2 semanas atrás"
-              thumbnail="/images/video-1.jpg"
-              videoId="Ks-Vj9-1zQw"
+              thumbnail={`https://img.youtube.com/vi/V-o8H9Khznc/maxresdefault.jpg`}
+              videoId="V-o8H9Khznc"
               href="/videos/furia-vs-navi"
             />
             <VideoCard
@@ -199,8 +199,8 @@ export default function Home() {
               duration="8:32"
               views="32K"
               date="3 semanas atrás"
-              thumbnail="/images/video-2.jpg"
-              videoId="Ks-Vj9-1zQw"
+              thumbnail={`https://img.youtube.com/vi/wU9Y_zFC2iI/maxresdefault.jpg`}
+              videoId="wU9Y_zFC2iI"
               href="/videos/kscerato-clutch"
             />
             <VideoCard
@@ -208,8 +208,8 @@ export default function Home() {
               duration="15:20"
               views="78K"
               date="1 mês atrás"
-              thumbnail="/images/video-3.jpg"
-              videoId="Ks-Vj9-1zQw"
+              thumbnail={`https://img.youtube.com/vi/tB8b5PZ2evs/maxresdefault.jpg`}
+              videoId="tB8b5PZ2evs"
               href="/videos/furia-valorant"
             />
           </div>
@@ -335,27 +335,27 @@ export default function Home() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <ProductCard
-              name="Camisa Oficial FURIA 2024"
+              name="Camisa Oficial FURIA 2025"
               price="R$ 249,90"
-              image="/images/product-1.jpg"
-              href="/loja/camisa-oficial-2024"
+              image="https://furiagg.fbitsstatic.net/img/p/camiseta-oficial-furia-adidas-preta-150265/337491-5.jpg?w=1280&h=1280&v=202503281009"
+              href="/loja/camisa-oficial-2025"
             />
             <ProductCard
               name="Moletom FURIA Preto"
               price="R$ 299,90"
-              image="/images/product-2.jpg"
+              image="https://furiagg.fbitsstatic.net/img/p/moletom-careca-furia-future-is-black-preto-150151/336715-5.jpg?w=1280&h=1280&v=no-value"
               href="/loja/moletom-preto"
             />
             <ProductCard
               name="Boné FURIA Snapback"
               price="R$ 129,90"
-              image="/images/product-3.jpg"
+              image="https://furiagg.fbitsstatic.net/img/p/bone-furia-furioso-preto-150141/336657-4.jpg?w=1280&h=1280&v=no-value"
               href="/loja/bone-snapback"
             />
             <ProductCard
               name="Mousepad FURIA XL"
               price="R$ 99,90"
-              image="/images/product-4.jpg"
+              image="https://assets.fallenstore.com.br/lp/mousepad/furia/pro_furia_edition_grande/images/bg_mousepad_furia_edition.webp"
               href="/loja/mousepad-xl"
             />
           </div>
