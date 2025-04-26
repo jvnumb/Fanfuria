@@ -2,8 +2,6 @@
 
 > Uma plataforma interativa feita para os fãs da FURIA Esports acompanharem notícias, lineup, vídeos, produtos e acumularem pontos interagindo com o time!
 
-![FanFURIA Banner]([https://fanfuria.vercel.app/banner-preview.png](https://media.discordapp.net/attachments/612609913784631334/1365510371724492850/pngegg_1.png?ex=680d9222&is=680c40a2&hm=b442efa916a25664850dcc16d82e337b577b81439bf18758e35e02325c0681ce&=&format=webp&quality=lossless))
-
 <p align="center">
   Plataforma interativa oficial dos fãs da <strong>FURIA Esports</strong>!
 </p>
