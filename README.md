@@ -1,76 +1,65 @@
 
-<h1 align="center">
-  <br>
-  <a href="[http://www.amitmerchant.com/electron-markdownify](https://media.discordapp.net/attachments/612609913784631334/1365510371724492850/pngegg_1.png?ex=680d9222&is=680c40a2&hm=b442efa916a25664850dcc16d82e337b577b81439bf18758e35e02325c0681ce&=&format=webp&quality=lossless)"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a>
-  <br>
-  FanFuria
-  <br>
-</h1>
+<h1 align="center"> <br> <img src="https://media.discordapp.net/attachments/612609913784631334/1365510371724492850/pngegg_1.png?ex=680d9222&is=680c40a2&hm=b442efa916a25664850dcc16d82e337b577b81439bf18758e35e02325c0681ce&=&format=webp&quality=lossless" alt="FanFURIA" width="200"> <br> FanFURIA <br> </h1> <h4 align="center">Plataforma oficial de interação para fãs da <a href="https://furia.gg" target="_blank">FURIA Esports</a>.</h4> <p align="center"> <a href="https://fanfuria.vercel.app"> 🌐 fanfuria.vercel.app </a> • <a href="https://github.com/jvnumb"> GitHub: @jvnumb </a> </p> <p align="center"> <a href="#visão-geral">Visão Geral</a> • <a href="#key-features">Principais Recursos</a> • <a href="#tecnologias">Tecnologias</a> • <a href="#como-rodar-localmente">Como Rodar</a> • <a href="#contribuições">Contribuições</a> • <a href="#licença">Licença</a> </p>
 
-<h4 align="center">A minimal Markdown Editor desktop app built on top of <a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
+## 📋 Visão Geral
 
-<p align="center">
-  <a href="https://badge.fury.io/js/electron-markdownify">
-    <img src="https://badge.fury.io/js/electron-markdownify.svg"
-         alt="Gitter">
-  </a>
-  <a href="https://gitter.im/amitmerchant1990/electron-markdownify"><img src="https://badges.gitter.im/amitmerchant1990/electron-markdownify.svg"></a>
-  <a href="https://saythanks.io/to/bullredeyes@gmail.com">
-      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
-  </a>
-  <a href="https://www.paypal.me/AmitMerchant">
-    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
-  </a>
-</p>
+O FanFURIA é uma plataforma digital feita para aproximar a torcida da FURIA de seus ídolos, conteúdos exclusivos e produtos oficiais.
+Com visual moderno e interações planejadas, o torcedor pode:
 
-<p align="center">
-  <a href="#key-features">Key Features</a> •
-  <a href="#how-to-use">How To Use</a> •
-  <a href="#download">Download</a> •
-  <a href="#credits">Credits</a> •
-  <a href="#related">Related</a> •
-  <a href="#license">License</a>
-</p>
+Criar conta e conectar redes sociais
 
-![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
+Interagir com notícias, lineup, vídeos e produtos
+
+Acumular pontos para trocar por experiências exclusivas
 
 ## Key Features
+📰 Notícias atualizadas sobre a FURIA
 
-* LivePreview - Make changes, See changes
-  - Instantly see what your Markdown documents look like in HTML as you create them.
-* Sync Scrolling
-  - While you type, LivePreview will automatically scroll to the current location you're editing.
-* GitHub Flavored Markdown  
-* Syntax highlighting
-* [KaTeX](https://khan.github.io/KaTeX/) Support
-* Dark/Light mode
-* Toolbar for basic Markdown formatting
-* Supports multiple cursors
-* Save the Markdown preview as PDF
-* Emoji support in preview :tada:
-* App will keep alive in tray for quick usage
-* Full screen mode
-  - Write distraction free.
-* Cross platform
-  - Windows, macOS and Linux ready.
+🎮 Lineup com perfis dos jogadores
 
-## How To Use
+📹 Destaques em vídeo diretamente do YouTube
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+🛒 Produtos oficiais em destaque
+
+🏆 Sistema de pontos para torcedores
+
+🔗 Integração com redes sociais
+
+🎨 Tema moderno usando Tailwind CSS
+
+⚡ Deploy na Vercel
+
+## ⚙️ Tecnologias
+
+React.js
+
+Next.js
+
+Tailwind CSS
+
+Lucide-react
+
+YouTube Embed API
+
+Vercel
+
+## 🚀 Como Rodar Localmente
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/amitmerchant1990/electron-markdownify
+# Clone o repositório
+git clone https://github.com/jvnumb/fanfuria.git
 
-# Go into the repository
-$ cd electron-markdownify
+# Acesse a pasta
+cd fanfuria
 
-# Install dependencies
-$ npm install
+# Instale as dependências
+npm install
 
-# Run the app
-$ npm start
+# Rode o servidor de desenvolvimento
+npm run dev
+
 ```
+Abra no navegador: http://localhost:3000
 
 > **Note**
 > If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
