@@ -9,7 +9,7 @@ import { Footer } from "@/components/footer"
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
 
 export const metadata: Metadata = {
-  title: "FURIA Fans - Site de fãs da FURIA Esports",
+  title: "FanFuria - Site de fãs da FURIA Esports",
   description: "Site não-oficial de fãs da FURIA Esports, com notícias, conteúdo exclusivo e produtos.",
     generator: 'v0.dev'
 }
